@@ -5,14 +5,43 @@
 
 a {
     text-decoration: none;
-    color: #2f81f7;
+}
+
+.recipe-link {
+    color: aliceblue;
 }
 
 #header,
 #recipes-list {
     text-align: center;
+    
+}
+
+#recipes-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
     list-style-position: inside;
+}
+.big {
+    margin: auto;
+    width: fit-content;
+}
+
+.container {
+    display: inline-block;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    margin: 10px;
+}
+.title {
+    text-align: center;
+}
+
+.image {
+    margin: 20px;
 }
